@@ -40,7 +40,8 @@ do {
 ```
 Pattern Printing: Pattern printing involves using nested loops to generate specific patterns such as triangles, squares, and pyramids. This practice helps in understanding nested loops and enhances logical thinking and problem-solving skills. Patterns are created by manipulating loop counters and conditions to produce the desired shapes.
 
-## Program 1:
+## Program 1: Print Numbers from 1 to the end value specified by the user.
+
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
