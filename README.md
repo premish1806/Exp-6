@@ -14,25 +14,288 @@ The <b>do-while</b> loop ensures that the loop body executes at least once befor
 
 ## Program 1:
 <strong> Algorithm: </strong>
+<br>
+Step 1: Start
+<br>
+Step 2: Declare variable num
+<br>
+Step 3: Prompt the user to enter an end value
+<br>
+Step 4: Read the value into num
+<br>
+Step 5: Loop from i = 1 to i <= num:
+<br>
+Step 5.1: Print the value of i
+<br>
+Step 6: End
+<br>
+
 <strong> Code: </strong>
 <br>
 ```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
 #include<iostream>
 using namespace std;
 int main()
 {
-    int rows;
-    cout<<"Enter the number of rows";
-     cin>> rows;
-    for(int i=1; i<=rows;i++) //rows
-    {
-        for(int j=1; j<=i; j++)  //columns
-        {
-            cout<<"*";
-        }
-     cout<<"\n"; //cout<<endl;
-    }
+int num;
+cout<<"Enter end value";
+cin>>num;
+for(int i=1;i<=num;i++)
+{
+    cout<< i ;
+}
+return 0;
 }
 ```
 <strong> Output: </strong>
+<br>
+
+## Program 2:
+<strong> Algorithm: </strong>
+<br>
+Step 1: Start
+<br>
+Step 2: Declare variables num and sum, and initialize sum to 0
+<br>
+Step 3: Prompt the user to enter a number
+<br>
+Step 4: Read the value into num
+<br>
+Step 5: Loop from i = 1 to i <= num:
+<br>
+     Step 5.1: Add the value of i to sum
+     <br>
+Step 6: Print the value of sum
+<br>
+Step 7: End
+<br>
+
+<strong> Code: </strong>
+<br>
+```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
+//Exp 6 for loop(2)
+#include <iostream>
+using namespace std;
+int main()
+{
+  int num,sum=0;
+  cout<<"Enter the number";
+  cin>>num;
+  for(int i=1; i<=num; i++)
+  {
+    sum=sum+i;
+  }
+ cout<<sum;
+ return 0;
+}
+```
+<strong> Output: </strong>
+<br>
+
+## Program 3a:
+<strong> Algorithm: </strong>
+<br>
+Step 1: Start
+<br>
+Step 2: Declare variables num and sum, and initialize sum to 0
+<br>
+Step 3: Prompt the user to enter a number
+<br>
+Step 4: Read the value into num
+<br>
+Step 5: Loop from i = 1 to i <= num:
+<br>
+      Step 5.1: Add the value of i to sum
+      <br>
+Step 6: Print the value of sum
+<br>
+Step 7: End
+<br>
+
+<strong> Code: </strong>
+<br>
+```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
+#include <iostream>
+using namespace std;
+int main()
+{
+  int num,sum=0;
+  cout<<"Enter the number";
+  cin>>num;
+  for(int i=1; i<=num; i++)
+  {
+    sum=sum+i;
+  }
+ cout<<sum;
+ return 0;
+}
+```
+<strong> Output: </strong>
+<br>
+
+## Program #3b:
+<strong> Algorithm: </strong>
+<br>
+Step 1: Start
+<br>
+Step 2: Declare variables i, j, k, and n, and initialize k to 0
+<br>
+Step 3: Prompt the user to enter the number of rows
+<br>
+Step 4: Read the value into n
+<br>
+Step 5: Loop from i = 1 to i <= n:
+<br>
+     Step 5.1: Loop from j = 1 to j <= (n - i):
+     <br>
+        Step 5.1.1: Print two spaces
+        <br>
+     Step 5.2: Loop while k != (2 * i - 1):
+     <br>
+        Step 5.2.1: Print "* "
+        <br>
+        Step 5.2.2: Increment k
+        <br>
+     Step 5.3: Reset k to 0
+     <br>
+     Step 5.4: Print a newline
+     <br>
+Step 6: Print a newline
+<br>
+Step 7: End
+<br>
+
+<strong> Code: </strong>
+<br>
+```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
+#include <iostream>
+using namespace std;
+int main()
+{
+   int i,j,k=0,n;
+   cout<<"Enter number of rows:";
+   cin>>n;
+   for(i=1;i<=n;i++)
+   {
+      for(j=1;j<=(n-i);j++)
+       {
+         cout<<"  ";
+       }
+      while(k!=(2*i-1))
+       {
+          cout<<"* ";
+        k++;
+       }
+      k=0;
+     cout<<endl;
+   }
+   cout<<endl;
+}
+```
+<strong> Output: </strong>
+<br>
+
+## Program 4:
+<strong> Algorithm: </strong>
+<br>
+Step 1: Start
+<br>
+Step 2: Declare variable i and initialize it to 1
+<br>
+Step 3: Loop while i <= 10:
+<br>
+     Step 3.1: Print the value of i
+      <br>
+     Step 3.2: Increment i
+     <br>
+Step 4: End
+<br>
+
+<strong> Code: </strong>
+<br>
+```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
+#include <iostream>
+using namespace std;
+int main() {
+    int i=1;
+    while(i<=10){
+        cout<<"Count: "<<i<<endl;
+        i++;
+    }
+    return 0;
+}
+```
+<strong> Output: </strong>
+<br>
+
+## Program 5:
+<strong> Algorithm: </strong>
+<br>
+Step 1:Start
+<br>
+Step 2: Declare variables password and correctPassword, and set correctPassword to "sit"
+<br>
+Step 3: Loop until password equals correctPassword:
+<br>
+       Step 3.1: Prompt the user to enter the password
+       <br>
+       Step 3.2: Read the value into password
+       <br>
+       Step 3.3: If password is not equal to correctPassword:
+       <br>
+            Step 3.3.1: Print "Invalid password\nTry again!!\n"
+            <br>
+Step 4: Print "Success!!"
+<br>
+Step 5: End
+<br>
+
+<strong> Code: </strong>
+<br>
+```cpp
+// Premish Ninawe
+// 23070123092
+// ENTC B1
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string password;
+    string correctPassword = "sit";
+    
+    do {
+        cout << "Enter the password: ";
+        cin >> password;
+        
+        if (password != correctPassword) {
+            cout << "Invalid password\nTry again!!\n";
+        }
+    } while (password != correctPassword);
+    
+    cout << "Success!!\n";
+    return 0;
+}
+```
+<strong> Output: </strong>
+<br>
+
+## Conclusion:
+
+
 
