@@ -73,13 +73,15 @@ cout<<"Enter end value";
 cin>>num;
 for(int i=1;i<=num;i++)
 {
-    cout<< i ;
+    cout<<i;
+    cout<<" ";
 }
 return 0;
 }
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/0ce623c8-fc43-4fdc-96c6-342dc440f80e)
 
 ## Program 2:
 <strong> Algorithm: </strong>
@@ -125,25 +127,28 @@ int main()
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/00b67b2b-2f1a-4dc8-9ace-ce3c860cd5a5)
 
 ## Program 3a:
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
 <br>
-Step 2: Declare variables num and sum, and initialize sum to 0
+Step 2: Declare variable rows
 <br>
-Step 3: Prompt the user to enter a number
+Step 3: Prompt the user to enter the number of rows
 <br>
-Step 4: Read the value into num
+Step 4: Read the value into rows
 <br>
-Step 5: Loop from i = 1 to i <= num:
+Step 5: Loop i from 1 to rows (inclusive):
 <br>
-      Step 5.1: Add the value of i to sum
-      <br>
-Step 6: Print the value of sum
+Step 5.1: Inside the loop, loop j from 1 to i (inclusive):
 <br>
-Step 7: End
+Step 5.1.1: Print "*"
+<br>
+Step 5.2: Print a newline character to move to the next line
+<br>
+Step 6: End
 <br>
 
 <strong> Code: </strong>
@@ -152,20 +157,24 @@ Step 7: End
 // Premish Ninawe
 // 23070123092
 // ENTC B1
-#include <iostream>
+#include<iostream>
 using namespace std;
 int main()
 {
-  int num,sum=0;
-  cout<<"Enter the number";
-  cin>>num;
-  for(int i=1; i<=num; i++)
-  {
-    sum=sum+i;
-  }
- cout<<sum;
- return 0;
+    int rows;
+    cout << "Enter the number of rows: ";
+    cin >> rows;
+    for(int i = 1; i <= rows; i++) // rows
+    {
+        for(int j = 1; j <= i; j++) // columns
+        {
+            cout << "*";
+        }
+        cout << "\n"; // cout << endl;
+    }
+    return 0;
 }
+
 ```
 <strong> Output: </strong>
 <br>
@@ -230,21 +239,31 @@ int main()
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/0ce0b57e-703d-4874-b68b-190d3397e1a5)
+
 
 ## Program 4:
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
 <br>
-Step 2: Declare variable i and initialize it to 1
+Step 2: Declare variable num
 <br>
-Step 3: Loop while i <= 10:
+Step 3: Input from the user to enter the end value
 <br>
-     Step 3.1: Print the value of i
-      <br>
-     Step 3.2: Increment i
-     <br>
-Step 4: End
+Step 4: Read the value into num
+<br>
+Step 5: Initialize variable i to 1
+<br>
+Step 6: Loop while i is less than or equal to num:
+<br>
+Step 6.1: Print the value of i followed by a space
+<br>
+Step 6.2: Increment i
+<br>
+Step 7: Print a newline character to move to the next line
+<br>
+Step 8: End
 <br>
 
 <strong> Code: </strong>
@@ -256,16 +275,22 @@ Step 4: End
 #include <iostream>
 using namespace std;
 int main() {
-    int i=1;
-    while(i<=10){
-        cout<<"Count: "<<i<<endl;
+    int num;
+    cout << "Enter the end value: ";
+    cin >> num;
+    int i = 1;
+    while (i <= num) {
+        cout << i << " ";
         i++;
     }
+    cout << endl;
     return 0;
 }
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/5439a442-06e5-43d9-b509-509e3790da3a)
+
 
 ## Program 5:
 <strong> Algorithm: </strong>
@@ -318,6 +343,7 @@ int main() {
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/f783d332-c1f0-4b72-a0a5-f322dd2dd3d7)
 
 ## Conclusion:
 In this practical exercise, I learned how to use different types of loops to repeat tasks, perform calculations, and handle user input. I practiced creating sequences, summing numbers, and making patterns with loops. These skills improved my understanding of how to control the flow of a program and work with repetitive processes.
