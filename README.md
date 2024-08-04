@@ -15,5 +15,24 @@ The <b>do-while</b> loop ensures that the loop body executes at least once befor
 ## Program 1:
 <strong> Algorithm: </strong>
 <strong> Code: </strong>
+<br>
+```cpp
+#include<iostream>
+using namespace std;
+int main()
+{
+    int rows;
+    cout<<"Enter the number of rows";
+     cin>> rows;
+    for(int i=1; i<=rows;i++) //rows
+    {
+        for(int j=1; j<=i; j++)  //columns
+        {
+            cout<<"*";
+        }
+     cout<<"\n"; //cout<<endl;
+    }
+}
+```
 <strong> Output: </strong>
 
