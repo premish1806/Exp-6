@@ -84,7 +84,8 @@ return 0;
 <br>
 ![image](https://github.com/user-attachments/assets/0ce623c8-fc43-4fdc-96c6-342dc440f80e)
 
-## Program 2:
+## Program 2:Calculate the Sum of First ‘n’ Natural Numbers where ‘n’ is the value entered by the user
+
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
@@ -130,7 +131,8 @@ int main()
 <br>
 ![image](https://github.com/user-attachments/assets/00b67b2b-2f1a-4dc8-9ace-ce3c860cd5a5)
 
-## Program 3a:
+## Program 3a: Print pattern of asterisk.
+
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
@@ -182,7 +184,8 @@ int main()
 ![image](https://github.com/user-attachments/assets/927edeba-24fc-4817-842b-9fb60476b901)
 
 
-## Program 3b:
+## Program 3b: Print pattern of asterisk.
+
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
@@ -245,7 +248,8 @@ int main()
 ![image](https://github.com/user-attachments/assets/0ce0b57e-703d-4874-b68b-190d3397e1a5)
 
 
-## Program 4:
+## Program 4: Print Numbers from 1 to the end value specified by the user using while loop.
+
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
@@ -295,7 +299,8 @@ int main() {
 ![image](https://github.com/user-attachments/assets/5439a442-06e5-43d9-b509-509e3790da3a)
 
 
-## Program 5:
+## Program 5: Simple Password Validation using do while loop.
+
 <strong> Algorithm: </strong>
 <br>
 Step 1:Start
