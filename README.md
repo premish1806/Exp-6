@@ -5,12 +5,40 @@ To study and implement C++ decision making statements Loops.
 The aim of this journal is to understand and implement basic C++ programs that demonstrate the use of loops, conditional statements, and pattern printing. These programs will help in developing fundamental programming skills and logic building.
 
 ## Software Used:
-- VS code
+- Dev c++
 
 ## Theory:
-In this practical, we delve into essential C++ constructs like loops and pattern printing. For <b>loops</b> are ideal for scenarios where the number of iterations is predetermined. They consist of an initialization, a condition check, and an increment/decrement operation, which makes them efficient for tasks like counting or iterating over a fixed range. In contrast, <b>while<\b> loops are used when the number of iterations is unknown and should continue as long as a specified condition is true. This loop checks the condition before executing its body, making it suitable for conditions that depend on runtime variables.
+For Loop: A for loop is used when the number of iterations is known beforehand. It consists of an initialization, a condition check, and an increment/decrement operation.
+<br>
+Syntax:
+<br>
+```cpp
+for (initialization; condition; increment/decrement) {
+    // Code to be executed
+}
+```
+<br>
+While Loop: A while loop is used when the number of iterations is not known and should continue as long as a specified condition is true. It checks the condition before executing the loop's body.
+<br>
+Syntax:
 
-The <b>do-while</b> loop ensures that the loop body executes at least once before the condition is evaluated, making it useful for situations like user input validation, where an action must occur at least once regardless of the initial condition. Pattern printing exercises, involving nested loops, are commonly used to develop logical thinking and problem-solving skills. By manipulating loop counters and conditions, various patterns such as triangles, squares, and pyramids can be printed, providing a practical way to understand and apply the concept of nested loops.
+```cpp
+while (condition) {
+    // Code to be executed
+}
+```
+<br>
+Do-While Loop: A do-while loop ensures that the loop body executes at least once before the condition is evaluated. This makes it useful for situations where the loop should run at least once, regardless of the condition.
+<br>
+Syntax:
+
+```cpp
+do {
+    // Code to be executed
+} while (condition);
+
+```
+Pattern Printing: Pattern printing involves using nested loops to generate specific patterns such as triangles, squares, and pyramids. This practice helps in understanding nested loops and enhances logical thinking and problem-solving skills. Patterns are created by manipulating loop counters and conditions to produce the desired shapes.
 
 ## Program 1:
 <strong> Algorithm: </strong>
@@ -19,9 +47,9 @@ Step 1: Start
 <br>
 Step 2: Declare variable num
 <br>
-Step 3: Prompt the user to enter an end value
+Step 3: Input the num value from user.
 <br>
-Step 4: Read the value into num
+Step 4: Read the value into num.
 <br>
 Step 5: Loop from i = 1 to i <= num:
 <br>
@@ -60,7 +88,7 @@ Step 1: Start
 <br>
 Step 2: Declare variables num and sum, and initialize sum to 0
 <br>
-Step 3: Prompt the user to enter a number
+Step 3: Input from the user to enter a number
 <br>
 Step 4: Read the value into num
 <br>
@@ -142,14 +170,14 @@ int main()
 <strong> Output: </strong>
 <br>
 
-## Program #3b:
+## Program 3b:
 <strong> Algorithm: </strong>
 <br>
 Step 1: Start
 <br>
 Step 2: Declare variables i, j, k, and n, and initialize k to 0
 <br>
-Step 3: Prompt the user to enter the number of rows
+Step 3: Input from the user to enter the number of rows
 <br>
 Step 4: Read the value into n
 <br>
@@ -167,11 +195,7 @@ Step 5: Loop from i = 1 to i <= n:
         <br>
      Step 5.3: Reset k to 0
      <br>
-     Step 5.4: Print a newline
-     <br>
-Step 6: Print a newline
-<br>
-Step 7: End
+Step 6: End
 <br>
 
 <strong> Code: </strong>
@@ -296,6 +320,7 @@ int main() {
 <br>
 
 ## Conclusion:
+In this practical exercise, I learned how to use different types of loops to repeat tasks, perform calculations, and handle user input. I practiced creating sequences, summing numbers, and making patterns with loops. These skills improved my understanding of how to control the flow of a program and work with repetitive processes.
 
 
 
