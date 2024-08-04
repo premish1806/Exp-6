@@ -178,6 +178,8 @@ int main()
 ```
 <strong> Output: </strong>
 <br>
+![image](https://github.com/user-attachments/assets/927edeba-24fc-4817-842b-9fb60476b901)
+
 
 ## Program 3b:
 <strong> Algorithm: </strong>
