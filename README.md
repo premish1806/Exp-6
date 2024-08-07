@@ -62,9 +62,6 @@ Step 6: End
 <strong> Code: </strong>
 <br>
 ```cpp
-// Premish Ninawe
-// 23070123092
-// ENTC B1
 #include<iostream>
 using namespace std;
 int main()
