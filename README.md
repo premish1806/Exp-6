@@ -81,7 +81,7 @@ return 0;
 <br>
 ![image](https://github.com/user-attachments/assets/0ce623c8-fc43-4fdc-96c6-342dc440f80e)
 
-## Program 2:Calculate the Sum of First ‘n’ Natural Numbers where ‘n’ is the value entered by the user
+## Program 2 :Calculate the Sum of First ‘n’ Natural Numbers where ‘n’ is the value entered by the user
 
 <strong> Algorithm: </strong>
 <br>
@@ -108,7 +108,6 @@ Step 7: End
 // Premish Ninawe
 // 23070123092
 // ENTC B1
-//Exp 6 for loop(2)
 #include <iostream>
 using namespace std;
 int main()
@@ -181,7 +180,7 @@ int main()
 ![image](https://github.com/user-attachments/assets/927edeba-24fc-4817-842b-9fb60476b901)
 
 
-## Program 3b: Print pattern of asterisk.
+## Program 3b: Print Pyramid pattern of asterisk.
 
 <strong> Algorithm: </strong>
 <br>
